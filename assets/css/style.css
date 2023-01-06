@@ -8,7 +8,7 @@
 body {
     font-family: dosis, sans-serif;
     font-weight: 200;
-    color: #fff;
+    color: silver;
 }
 
 header {
@@ -19,17 +19,19 @@ header {
 
 h1, h2 {
     font-family: noto, sans-serif;
-    color: #fff
+    color: silver;
 }
 
 #logo {
     float: left;
     font-size: 200%;
     padding-left: 25px;
+    -webkit-text-stroke: 0.6px silver;
 }
 
 #menu {
-    font-size: 100%;
+    float: right;
+    font-size: 120%;
     font-weight: 200;
 }
 
@@ -38,9 +40,9 @@ h1, h2 {
 }
 
 #menu li {
-    float:right;
     list-style-type: none;
     margin-right: 25px;
+    display: inline;
 }
 
 #menu a {
@@ -49,7 +51,7 @@ h1, h2 {
 }
 
 #menu a:hover {
-    border-bottom: 1px solid silver;
+    border-bottom: 2px solid silver;
 }
 
 .active {
