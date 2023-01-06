@@ -24,13 +24,12 @@ h1, h3{
 
 h2 {
     color:rgba(86, 7, 12, 0.7);
-    margin:30px; 
 }
 
 #logo {
     float: left;
-    font-size: 200%;
     padding-left: 25px;
+    font-size: 300%;
     -webkit-text-stroke: 0.6px silver;
 }
 
@@ -41,7 +40,7 @@ h2 {
 }
 
 #menu, #logo {
-    line-height: 95px;
+    line-height: 100px;
 }
 
 #menu li {
