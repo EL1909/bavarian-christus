@@ -236,3 +236,14 @@ textarea {
     background: none;
     width: 60%;
 }
+
+#photos {
+    clear: both;
+    line-height: 0;
+    column-count: 3;
+    column-gap: 1px;
+}
+
+#photos > img {
+    width: 100%;
+}
