@@ -7,7 +7,7 @@
 
 body {
     font-family: dosis, sans-serif;
-    font-weight: 200;
+    font-weight: 300;
     color: silver;
 }
 
@@ -17,7 +17,7 @@ header {
     height: 75px;
 }
 
-h1, h2 {
+h1, h2, h3{
     font-family: noto, sans-serif;
     color: silver;
 }
@@ -57,3 +57,52 @@ h1, h2 {
 .active {
     border-bottom: 1px solid silver;
 }
+
+.main-text {
+    background-color: #ad8762;
+    width: 100%;
+    height: 250px;
+    padding: 25px;
+    }
+
+.main-text h1,h3 {
+    float: right;
+    padding-right: 50px;
+    font-size: 75px;
+    clear: both;
+    text-shadow: 1px #5e2129;
+    width: 66%;
+    text-align: right;
+}
+
+#jesus-text {
+    text-align: justify;
+    width: 33%;
+    height: 300px;
+    clear: right;
+    position: relative;
+    float: left;
+    display: block;
+
+}
+
+footer {
+    height: 100px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+}
+
+
