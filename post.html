@@ -28,13 +28,13 @@
             </ul>
         </nav>
     </header>
-    <section >
-        <div class="gallery-section">
+    <section class="gallery-section">
+        <div>
             <h3>Share your B.C. Photos </h3>
         </div>
     </section>
     <section>
-        <div class="share-text">
+        <div class="text-section">
             <p id="first-p"><span id="first-letter"> I</span>n this website we all can post our “Christ in Bavaria” images.</p>
             <br>
             <p> You as colaborator can upload your photo and location of the statue.</p>
@@ -42,18 +42,23 @@
             <p>Eventually we can create visiting routes for those who like me, are interested in Christ images.</p> 
         </div>
         <div id="form" class="form-section">
-            <h2>Share your Photos <i class="fa-solid fa-sd-card"></i></h2>
-            <form action="url" method="post" class="signup-form">
+            <h2>Upload Here <i class="fa-solid fa-sd-card"></i></h2>
+            <form action="#" method="post">
                 <label for="fname">First Name</label>
-                <input type="text" id="fname" name="first_name" placeholder="First Name">
+                <input type="text" class="text-input" id="fname" name="first_name">
+                <br>
                 <label for="Lname">Last Name</label>
-                <input type="text" id="Lname" name="last_name" placeholder="Last Name">
+                <input type="text" class="text-input" id="Lname" name="last_name">
+                <br>
                 <label for="email">Email</label>
-                <input type="email" id="email" name="last_name" placeholder="Email">
+                <input type="email" class="text-input" id="email" name="last_name">
+                <br>
                 <label for="where">Where did you took this one?</label>
-                <input type="textarea" id="where" name="where" rows= "500" cols= "50" placeholder="You can share the google maps lnk of the location, and any comments you want to share.">
-                <input type="file">
-                <input type="button" name="Send" value="Send">
+                <textarea class="text-input" id="where" name="where" rows= "500" cols= "50" placeholder="You can share the google maps lnk of the location, and any comments you want to share."></textarea>
+                <br>
+                <label for="upload">Upload here</label>
+                <input type="file" id="upload">
+                <input type="button" class="join-button" name="Send" value="Send">
             </form>
         </div>
     </section>

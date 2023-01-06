@@ -77,15 +77,19 @@ h1, h2, h3{
     text-align: right;
 }
 
+.text-section{
+    height: 300px;
+
+}
+
 .jesus-text {
     text-align: justify;
     font-weight: 1000;
     font-size: 1.2em;
     width: 50%;
-    height: 300px;
+    float: left;
     clear: right;
     position: relative;
-    float: left;
     display: inline;
     padding: 15px 25px;
     color: rgba(86, 7, 12, 0.7);
@@ -103,7 +107,6 @@ h1, h2, h3{
 
 #image {
     width: 45%;
-    height: 300px;
     float: right;
     position: relative;
     display: inline;
@@ -149,69 +152,71 @@ footer {
     width: 66%;
     text-align: right;
 }
+
 .share-text {
-    text-align: justify;
+    text-align: left;
     font-weight: 1000;
     font-size: 1.2em;
     width: 45%;
-    height: 150px;
+    height: 250px;
     clear: both;
     position: relative;
     float: left;
     padding: 15px 25px;
     color: rgba(86, 7, 12, 0.7);
     background-color: rgba(192, 192, 192, 0.5);
+    display: inline;
 }
 
 /* Form */
 
 .form-section {
     text-align: right;
-    width: 50%;
-    height: 150px;
+    font-weight: 1000;
+    font-size: 1.2em;
+    width: 45%;
+    height: 250px;
     position: relative;
-    background-color: Blue;
-    color: #fff;
     float:right;
-    left: 10%;
-    padding: 30px;
-}
-
-.signup-form {
-    
+    padding: 15px 25px;
+    color: rgba(86, 7, 12, 0.7);
+    background-color: rgba(192, 192, 192, 0.5);
+    display: inline;  
 }
 
 .form-section h2 {
-    color: #fafafa;
-    margin-bottom: 20px; 
+    color:rgba(86, 7, 12, 0.7);
+    text-decoration: underline;
+    margin:30px; 
 }
 
 .text-input {
     background: transparent;
-    color: #fafafa;
-    width: 100%;
-    height: 25px;
-    margin: 5px 0 20px 0;
-    border: 1px solid #fafafa;
+    color: rgba(192, 192, 192, 0.5);
+    width: 60%;
+    text-align: right;
+    height: 20px;
+    margin: 5px 0 10px 0;
+    border: 1px solid rgba(192, 192, 192, 0.5);;
     border-radius: 2px;
 }
 
 .text-input:hover {
-    border-color:#f16c6b;
+    border-color:rgba(86, 7, 12, 0.7);
 }
 
 .join-button {
-    margin-top: 20px;
+    margin-top: 10px;
     border-radius: 2px;
-    padding: 15px 32px;
+    padding: 10px 20px;
     text-align: center;
     font-size: 100%;
-    background-color: #f16c6b;
-    color: #fafafa;
+    background-color: rgba(86, 7, 12, 0.7);
+    color: rgba(192, 192, 192, 0.5);
     display: block;
 }
 
 .join-button:hover {
-    background-color:#fafafa;
-    color: #f16c6b;
+    background-color:rgba(192, 192, 192, 0.5);
+    color: rgba(86, 7, 12, 0.7);
 }
