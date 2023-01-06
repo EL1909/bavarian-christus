@@ -1,11 +1,24 @@
-body{
-    margin: 0 0;
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Noto+Sans+KR&display=swap'); </style>
+
+*   {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: noto, sans-serif;
+    font-weight: 300;
+    color: #fff;
+    -webkit-text-stroke: 1px silver;
+
 }
 
 header {
     background-color: #5e2129;
-    color: #fff;
+    color:#fff;
     height: 75px;
+    
     
 }
 h1 {
