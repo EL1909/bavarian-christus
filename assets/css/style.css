@@ -58,14 +58,16 @@ h1, h2, h3{
     border-bottom: 1px solid silver;
 }
 
-.main-text {
+.main-section {
     background-color: #ad8762;
     width: 100%;
-    height: 250px;
-    padding: 25px;
+    height: 200px;
+    padding:75px 25px;
+    border-top: 5px solid silver;
+    border-bottom: 5px solid silver;
     }
 
-.main-text h1,h3 {
+.main-section h1,h3 {
     float: right;
     padding-right: 50px;
     font-size: 75px;
@@ -75,19 +77,38 @@ h1, h2, h3{
     text-align: right;
 }
 
-#jesus-text {
+.jesus-text {
     text-align: justify;
-    width: 33%;
+    font-weight: bold;
+    font-size: 1.2em;
+    width: 48%;
     height: 300px;
     clear: right;
     position: relative;
     float: left;
-    display: block;
+    display: inline;
+    padding: 15px 25px;
+    background-color: rgba(86,7,12,0.6);
+}
 
+#first-letter {
+    font-size: 35px;
+    line-height: 10px;
+    text-indent: 250px;
+  }
+
+#image {
+    width: 48%;
+    height: 300px;
+    float: right;
+    position: relative;
 }
 
 footer {
-    height: 100px;
+    height: 50px;
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
 }
 
 .social-networks {
