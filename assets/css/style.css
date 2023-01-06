@@ -1,0 +1,18 @@
+body{
+    margin: 0 0;
+}
+
+header {
+    background-color: #5e2129;
+    color: #fff;
+    height: 75px;
+    
+}
+h1 {
+    padding-left: 10px;
+    float: left;
+}
+
+nav{
+    float:right;
+}
