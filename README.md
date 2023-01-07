@@ -4,6 +4,7 @@ Bavarian Christ is a website created by Luciano Fernandez for the purpouse of al
 
 Users of the website will be able to see images and in future versions could also upload their own photos as long as they are taken in Bavaria. They will be also able to tag the location of the photo. This will allow visitors to find exactly where the statue is located.
 
+<img src="assets/images/respnsivity.png">
 
 In the home page, visitors can have a clear idea of what the website was made for.
 
