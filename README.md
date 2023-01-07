@@ -13,15 +13,17 @@ The Post page, is intendet to allow users to share pictures taken by themselves,
 
 TESTING 
 
-- The website have been tested in Chrome, Safari and Firefox explorer,
+- The website have been tested in Chrome, Safari and Firefox explorer.
 - Navigation, header and menu elemets are confirmed and functional.
 - Post section is not properly working yet, only the layout was intendet for this version. 
 
-the website have no unfixed bugs
+the website have no unfixed bugs.
 
 VALIDATOR TESTING
 
-- 
+- HTML: No errors returned when passing through the official W3C validator.
+- CSS: No errors were found when passing through the official (Jigswaw) validator.
+- Accesibility: 
 
 DEPLOYMENT
 
@@ -37,10 +39,6 @@ Navigation
 - In the top-right cornet, users can find the website menu; with three links redirecting to "Home", "Gallery' and "Post" pages respectively, each one has a diferent page.
 - Navigation fonts tend to be sober and respectful; text style contrast with solid background colors.
 
-
-
-
-
 CREDITS
 
 Content
@@ -48,5 +46,5 @@ Content
 - Icons used for social network links and as decoration in Post submit section are taken from fontawesome.com
 
 Media
-- All images belong to the developer.
+- All text and images belong to the developer.
 
