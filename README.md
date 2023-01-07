@@ -19,6 +19,10 @@ TESTING
 
 the website have no unfixed bugs
 
+VALIDATOR TESTING
+
+- 
+
 DEPLOYMENT
 
 The site was deployed to Github Pages. The steps to deploy are as follows:
