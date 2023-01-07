@@ -102,7 +102,7 @@ h2 {
     display: inline;
     padding: 15px 25px;
     color: rgba(86, 7, 12, 0.7);
-    background-color: rgba(192, 192, 192, 0.8);!
+    background-color: rgba(192, 192, 192, 0.8);
 }
 
 #first-letter {
@@ -180,8 +180,6 @@ footer {
     border-bottom: 5px solid  rgba(192, 192, 192, 0.5);
 }
 
-/* Form */
-
 .form-section {
     text-align: right;
     font-weight: 1000;
@@ -246,4 +244,19 @@ textarea {
 
 #photos > img {
     width: 100%;
+}
+
+@media screen and (max-width: 1150px) {
+    .main-section {
+        width: 100%;
+        height: 600px;
+        padding: 0;
+        margin: 0 auto; 
+    }
+
+    .text-section {
+        width: 100%;
+        height: 520px;
+        margin: o auto; 
+    }
 }
