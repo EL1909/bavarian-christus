@@ -3,6 +3,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 
 body {
@@ -16,21 +17,23 @@ html {
     height: 100%;
   }
 
-.grid-container > * {
-    box-shadow: -1px 1px 1px 0px rgba(0, 0, 0, 0.75);
+/*.grid-container > * {
+    box-shadow: -1px 1px 1px 0px rgba(0, 0, 0, 0.75); 
     border-radius: 2px;
-    padding: 10px;
-    text-align: center;
-}
+    padding: 10px;   
+}*/
 
 .header {
     grid-area: header;
     background-color: rgba(86, 7, 12, 0.9);
     width: 100%;
+    -webkit-text-stroke: 0.1px #fff;
 }
   
 .title {
     grid-area: title;
+    font-family: noto, sans-serif;
+    color: #fff;
     background-color: steelblue;
 }
   
@@ -47,8 +50,26 @@ html {
 #logo {
     float: left;
     padding: 25px;
-    font-size: 300%;
-    -webkit-text-stroke: 0.6px #fff;
+    font-size: 3rem;
+    -webkit-text-stroke: 0.1px #fff;
+}
+
+#menu {
+    float: right;
+    font-size: 1.5rem;
+    line-height: 100px;
+    list-style-type: none;
+    margin-right: 25px;
+}
+
+#menu li {
+    display: inline;
+    color: #25cd44;
+    
+}
+
+.active {
+    border-bottom: 1px solid #fff;
 }
 
 .grid-container {
