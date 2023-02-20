@@ -1,314 +1,54 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Noto+Sans+KR&display=swap');
 *   {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    border: none;
 }
 
 body {
     font-family: dosis, sans-serif;
     font-weight: 300;
     color:#fff;
+    min-height: 100%;
 }
 
-header {
-    background-color: rgba(86, 7, 12, 0.9);
-    width: 100%;
-    height: 100px;
-}
-
-h1, h3{
-    font-family: noto, sans-serif;
-    color: #fff;
-}
-
-h2 {
-    color:rgba(86, 7, 12, 0.7);
-}
-
-#logo {
-    float: left;
-    padding-left: 25px;
-    font-size: 300%;
-    -webkit-text-stroke: 0.6px #fff;
-}
-
-#menu {
-    float: right;
-    font-size: 120%;
-    font-weight: 200;
-}
-
-#menu, #logo {
-    line-height: 100px;
-}
-
-#menu li {
-    list-style-type: none;
-    margin-right: 25px;
-    display: inline;
-}
-
-#menu a {
-    text-decoration: none;
-    color: inherit;
-}
-
-#menu a:hover {
-    border-bottom: 2px solid #fff;
-}
-
-.active {
-    border-bottom: 1px solid #fff;
-}
-
-.main-section {
-    background-color: #ad8762;
-    width: 100%;
-    height: 200px;
-    padding:75px 25px;
-    border-top: 5px solid #fff;
-    border-bottom: 5px solid #fff;
-    }
-
-.main-section h1,h3 {
-    float: right;
-    padding-right: 50px;
-    font-size: 75px;
-    clear: both;
-    width: 66%;
-    text-align: right;
-}
-
-.text-section{
+html {
     height: 100%;
-    background-image: url('../images/kochland.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    overflow: hidden;
-}
-
-.jesus-text {
-    text-align: justify;
-    font-weight: 1000;
-    font-size: 1.2em;
-    width: 50%;
-    float: left;
-    clear: right;
-    position: relative;
-    display: inline;
-    padding: 15px 25px;
-    color: rgba(86, 7, 12, 0.7);
-    background-color: rgba(192, 192, 192, 0.8);
-}
-
-#first-letter {
-        font-size:35px;
-        line-height: 25px;
-}
-
-#first-p {
-    text-indent: 25px;
   }
 
-#image {
-    width: 45%;
-    float: right;
-    position: relative;
-    display: inline;
-}
-
-footer {
-    height: 150px;
-    width: 100%;
-    clear: both;
-}
-
-.social-networks {
-    text-align: center;
-   
-}
-
-.social-networks > li {
-    display: inline;
-}
-
-.social-networks i {
-    font-size: 190%;
-    margin: 1%;
-    padding: 5%;
-    color:rgba(86, 7, 12, 1)
-}
-
-#photos-title {
-    width: 100px;
-    height: 50px;
+.grid-container > * {
+    box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 4px;
     padding: 10px;
-    position: relative;
     text-align: center;
-    display: inline;
-}
+  }
 
-.gallery-section {
-    background-color: #ad8762;
-    width: 100%;
-    height: 30px;
-    padding:50px 25px;
-    border-top: 5px solid silver;
-    border-bottom: 5px solid silver;
-    }
-
-.gallery-section h3 {
-    float: right;
-    padding-right: 50px;
-    font-size: 50px;
-    clear: both;
-    width: 66%;
-    text-align: right;
-}
-
-.share-text {
-    text-align: left;
-    font-weight: 1000;
-    font-size: 1.5em;
-    width: 50%;
-    height: 450px;
-    clear: both;
-    position: relative;
-    float: left;
-    padding: 25px 35px;
-    color: rgba(86, 7, 12, 0.7);
-    background-color: rgba(192, 192, 192, 0.5);
-    display: inline;
-    box-sizing: border-box;
-    border-right: 5px solid  rgba(192, 192, 192, 0.5);
-    border-bottom: 5px solid  rgba(192, 192, 192, 0.5);
-}
-
-.form-section {
-    text-align: right;
-    font-weight: 1000;
-    font-size: 1.2em;
-    width: 50%;
-    height: 450px;
-    position: relative;
-    float:right;
-    padding: 15px 25px;
-    color: rgba(86, 7, 12, 0.7);
-    background-color: rgba(192, 192, 192, 0.5);
-    display: inline;
-    box-sizing: border-box;
-    border-bottom: 5px solid  rgba(192, 192, 192, 0.5);
-}
-
-.text-input {
-    background: transparent;
-    color: #fff;
-    width: 60%;
-    text-align: right;
-    height: 20px;
-    margin: 5px 0 10px 0;
-    border: 1px solid rgba(192, 192, 192, 0.5);;
-    border-radius: 2px;
-}
-
-.text-input:hover {
-    border-color:rgba(86, 7, 12, 0.7);
-}
-
-.share-button {
-    margin-top: 10px;
-    border-radius: 2px;
-    padding: 10px 20px;
-    text-align: center;
-    font-size: 100%;
-    background-color: rgba(86, 7, 12, 1);
-    color: white;
-    display: block;
-    float: right;
-}
-
-.share-button:hover {
-    background-color:rgba(192, 192, 192, 0.5);
-    color: rgba(86, 7, 12, 0.7);
-    
-}
-
-textarea {
-    padding: 20px;
-    background: none;
-    width: 60%;
-}
-
-#photos {
-    clear: both;
-    line-height: 0;
-    column-count: 3;
-    column-gap: 1px;
-}
-
-#photos > img {
-    width: 100%;
-}
-
-@media screen and (max-width: 1150px) {
-    .main-section {
-        width: 100%;
-        height: 600px;
-        padding: 0;
-        margin: 0 auto; 
-    }
-
-    .jesus-text {
-        height: 100%;
-    }
-
-    .text-section {
-        width: 100%;
-        height: 600px;
-        margin: 0 auto;
-    }
-}
-
-@media screen and (max-width: 800px) {
-    .main-section {
-        width: 100%;
-        height: 600px;
-        padding: 0;
-        margin: 0 auto; 
-    }
-
-    .jesus-text {
-        height: 100%;
-    }
-    .text-section {
-        width: 100%;
-        height: 800px;
-        margin: 0 auto; 
-        background-position: right;
-    }
-
-    .gallery-section {
-        width: 100%;
-        height: 150px;
-    }
-
-    .share-text {
-        position: relative;
-        display: inline-block;
-        width: 100%;
-    }
-
-    .form-section {
-        position: relative;
-        display: inline-block;
-        width: 100%;
-        margin: 0 auto;
-    }
-
-    #photos  {
-        column-count: 2;
-    }
-}
+  .header {
+    grid-area: header;
+    background-color: #d61c95;
+  }
+  
+  .title {
+    grid-area: title;
+    background-color: steelblue;
+  }
+  
+  .main {
+    grid-area: main;
+    background-color: brown;
+  }
+  
+  .footer {
+    grid-area: footer;
+    background-color: #8c96a0;
+  }
+  
+  .grid-container {
+    display: grid;
+    gap: 10px;
+    grid-template:
+      "header"  150px
+      "title"  150px
+      "main"    auto
+      "footer"  100px;
+  }
