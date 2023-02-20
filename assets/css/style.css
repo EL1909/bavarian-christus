@@ -17,38 +17,46 @@ html {
   }
 
 .grid-container > * {
-    box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
-    border-radius: 4px;
+    box-shadow: -1px 1px 1px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 2px;
     padding: 10px;
     text-align: center;
-  }
+}
 
-  .header {
+.header {
     grid-area: header;
-    background-color: #d61c95;
-  }
+    background-color: rgba(86, 7, 12, 0.9);
+    width: 100%;
+}
   
-  .title {
+.title {
     grid-area: title;
     background-color: steelblue;
-  }
+}
   
-  .main {
+.main {
     grid-area: main;
     background-color: brown;
-  }
+}
   
-  .footer {
+.footer {
     grid-area: footer;
     background-color: #8c96a0;
-  }
+}
   
-  .grid-container {
+#logo {
+    float: left;
+    padding: 25px;
+    font-size: 300%;
+    -webkit-text-stroke: 0.6px #fff;
+}
+
+.grid-container {
     display: grid;
-    gap: 10px;
+    gap: 3px;
     grid-template:
-      "header"  150px
-      "title"  150px
-      "main"    auto
-      "footer"  100px;
-  }
+        "header"  150px
+        "title"  150px
+        "main"    auto
+        "footer"  50px;
+}
