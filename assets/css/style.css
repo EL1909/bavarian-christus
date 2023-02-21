@@ -53,19 +53,19 @@ html {
     background-size: cover;
     background-position: center;
     overflow: hidden;
+    border-top: 4px solid #ad8762;
 }
   
 .footer {
     grid-area: footer;
     background-color: #8c96a0;
-    height: 50px;
     width: 100%;
     clear: both;
 }
   
 #logo {
     float: left;
-    padding: 40px;
+    padding: 25px;
     font-size: 3rem;
     -webkit-text-stroke: 0.1px #fff;
 }
@@ -75,9 +75,9 @@ html {
     font-size: 1.5rem;
     line-height: 100px;
     list-style-type: none;
-    margin-right: 25px;
-    padding: 10px;
+    padding-right: 25px;
 }
+
 
 a   {
     color: #fff;
@@ -89,6 +89,22 @@ a   {
     display: inline;
 }
 
+.jesus-text {
+    text-align: justify;
+    font-family: noto, sans-serif;
+    font-weight: 500;
+    font-size: 1.2em;
+    width: 60%;
+    height: 100%;
+    float: left;
+    clear: right;
+    position: relative;
+    display: inline;
+    padding: 15px 25px;
+    color: rgba(86, 7, 12, 0.7);
+    background-color: rgba(192, 192, 192, 0.8);
+}
+
 .active {
     border-bottom: 1px solid #fff;
 }
@@ -98,20 +114,18 @@ a:hover {
 }
 
 .social-networks {
-    text-align: center;   
+    text-align: center;
+    padding: 10px;
 }
 
 .social-networks > li {
     display: inline;
     font-size: 1.3rem;
-    margin: 3%;
     padding: 10px;
 }
 
-
 .grid-container {
     display: grid;
-    gap: 3px;
     grid-template:
     "header header"  100px
     "title title"  200px
