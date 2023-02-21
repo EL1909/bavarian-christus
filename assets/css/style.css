@@ -27,29 +27,45 @@ html {
     grid-area: header;
     background-color: rgba(86, 7, 12, 0.9);
     width: 100%;
-    -webkit-text-stroke: 0.1px #fff;
+    /*-webkit-text-stroke: 0.1px #fff;*/
 }
   
 .title {
     grid-area: title;
     font-family: noto, sans-serif;
-    color: #fff;
-    background-color: steelblue;
+    background-color: #ad8762;
+    width: 100%;
+    height: auto;
+    padding: 75px 25px;
+    font-size: 2rem;
+}
+
+.title h1, h3 {
+    text-align: right;
 }
   
 .main {
     grid-area: main;
-    background-color: brown;
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/kochland.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
 }
   
 .footer {
     grid-area: footer;
     background-color: #8c96a0;
+    height: 50px;
+    width: 100%;
+    clear: both;
 }
   
 #logo {
     float: left;
-    padding: 25px;
+    padding: 40px;
     font-size: 3rem;
     -webkit-text-stroke: 0.1px #fff;
 }
@@ -60,24 +76,45 @@ html {
     line-height: 100px;
     list-style-type: none;
     margin-right: 25px;
+    padding: 10px;
+}
+
+a   {
+    color: #fff;
+    padding-left: 10px;
+    text-decoration: none;
 }
 
 #menu li {
     display: inline;
-    color: #25cd44;
-    
 }
 
 .active {
     border-bottom: 1px solid #fff;
 }
 
+a:hover {
+    border-bottom: 2px solid #fff;
+}
+
+.social-networks {
+    text-align: center;   
+}
+
+.social-networks > li {
+    display: inline;
+    font-size: 1.3rem;
+    margin: 3%;
+    padding: 10px;
+}
+
+
 .grid-container {
     display: grid;
     gap: 3px;
     grid-template:
-        "header"  150px
-        "title"  150px
-        "main"    auto
-        "footer"  50px;
+    "header header"  100px
+    "title title"  200px
+    "main main"    auto
+    "footer footer"  50px;
 }
