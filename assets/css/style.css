@@ -1,13 +1,16 @@
+
+/* Imported fonts from google Noto and Dosis*/
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Noto+Sans+KR&display=swap');
+
+/* Style for general site*/
 *   {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     text-align: center;
-    
-
 }
 
+/* Style for text in most of the body */
 body {
     font-family: dosis, sans-serif;
     font-weight: 300;
@@ -20,17 +23,12 @@ html {
     height: 100%;
   }
 
-/*.grid-container > * {
-    box-shadow: -1px 1px 1px 0px rgba(0, 0, 0, 0.75); 
-    border-radius: 2px;
-    padding: 10px;   
-}*/
+/* Classes for ordering with grids*/
 
 .header {
     grid-area: header;
     background-color: rgba(86, 7, 12, 0.9);
     width: 100%;
-    /*-webkit-text-stroke: 0.1px #fff;*/
 }
   
 .title {
@@ -67,6 +65,7 @@ html {
     position: relative;
 }
   
+/* Style for logo*/
 #logo {
     float: left;
     padding: 25px;
@@ -74,6 +73,8 @@ html {
     -webkit-text-stroke: 0.1px #fff;
 }
 
+
+/* Style for menu*/
 #menu {
     grid-area: menu;
     float: right;
@@ -82,6 +83,9 @@ html {
     list-style-type: none;
     padding-right: 25px;
 }
+
+
+/* Style for photos in gallery*/
 
 #photos {
     clear: both;
@@ -94,6 +98,8 @@ html {
     width: 100%;
 }
 
+
+/* Style for links in menu and footer */
 a   {
     color: #fff;
     padding-left: 10px;
@@ -104,6 +110,8 @@ a   {
     display: inline;
 }
 
+
+/* Style for text in home site*/
 .jesus-text {
     text-align: justify;
     font-family: noto, sans-serif;
@@ -120,6 +128,8 @@ a   {
     background-color: rgba(192, 192, 192, 0.7);
 }
 
+
+/* Style for text in Post page*/
 .share-text {
     grid-area: text;
     text-align: left;
@@ -138,6 +148,8 @@ a   {
     border-bottom: 5px solid  rgba(192, 192, 192, 0.5);
 }
 
+
+/* Style for form in post section*/
 .form-section {
     grid-area: upload;
     text-align: left;
@@ -165,6 +177,7 @@ a   {
     border-radius: 2px;
 }
 
+/* Style for classes and hovering behivor */
 .text-input:hover {
     border-color:rgba(86, 7, 12, 0.7);
 }
@@ -188,6 +201,8 @@ a:hover {
     padding: 10px;
 }
 
+
+/* Style Sharing photo butto in post page*/
 .share-button {
     margin-top: 10px;
     border-radius: 2px;
@@ -206,6 +221,7 @@ a:hover {
     
 }
 
+/* grid position for and tagging to be used across CSS file*/
 .grid-container {
     display: grid;
     grid-template:
@@ -216,6 +232,8 @@ a:hover {
     "footer footer"  50px;
 }
 
+
+/* Media queries fo mid-size and small devices*/
 @media screen and (max-width: 600px) {    
     .header {
         background-color: rgba(86, 7, 12, 0.9);
