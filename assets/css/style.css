@@ -115,6 +115,57 @@ a   {
     background-color: rgba(192, 192, 192, 0.8);
 }
 
+
+.share-text {
+    grid-area: text;
+    text-align: left;
+    font-weight: 1000;
+    font-size: 1.5rem;
+    width: 50%;
+    height: 100%;
+    clear: both;
+    position: relative;
+    float: left;
+    padding: 25px 35px;
+    color: rgba(86, 7, 12, 0.7);
+    background-color: rgba(192, 192, 192, 0.5);
+    display: inline-block;
+    box-sizing: border-box;;
+    border-right: 5px solid  rgba(192, 192, 192, 0.5);
+    border-bottom: 5px solid  rgba(192, 192, 192, 0.5);
+}
+
+.form-section {
+    grid-area: upload;
+    text-align: left;
+    font-weight: 1000;
+    font-size: 1.2em;
+    width: 50%;
+    position: relative;
+    float:right;
+    padding: 15px 25px;
+    color: rgba(86, 7, 12, 0.7);
+    background-color: rgba(192, 192, 192, 0.5);
+    display: inline-block;
+    box-sizing: border-box;
+    border-bottom: 5px solid  rgba(192, 192, 192, 0.5);
+}
+
+.text-input {
+    background: transparent;
+    color: rgba(86, 7, 12, 0.7);
+    width: 60%;
+    text-align: left;
+    height: 20px;
+    margin: 5px 0 10px 0;
+    border: 1px solid rgba(192, 192, 192, 0.5);;
+    border-radius: 2px;
+}
+
+.text-input:hover {
+    border-color:rgba(86, 7, 12, 0.7);
+}
+
 .active {
     border-bottom: 1px solid #fff;
 }
@@ -134,11 +185,31 @@ a:hover {
     padding: 10px;
 }
 
+.share-button {
+    margin-top: 10px;
+    border-radius: 2px;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 100%;
+    background-color: rgba(86, 7, 12, 1);
+    color: white;
+    display: block;
+    float: right;
+}
+
+.share-button:hover {
+    background-color:rgba(192, 192, 192, 0.5);
+    color: rgba(86, 7, 12, 0.7);
+    
+}
+
 .grid-container {
     display: grid;
     grid-template:
     "header header"  100px
     "title title"  200px
     "main main"    auto
+    "text upload" auto
     "footer footer"  50px;
 }
+
