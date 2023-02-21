@@ -40,7 +40,7 @@ html {
     font-size: 2rem;
 }
 
-.title h1, h3 {
+.title h1, h3, p{
     text-align: right;
 }
   
@@ -80,9 +80,10 @@ html {
 
 #photos {
     clear: both;
-    line-height: 0;
+    line-height: 1px;
     column-count: 3;
-    column-gap: 1px;
+    column-gap: 0.5px;
+    width: 100%;
 }
 #photos > img {
     width: 100%;
